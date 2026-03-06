@@ -1,9 +1,6 @@
-def main():
+from dotenv import load_dotenv
+import os
 
-   for i in range(1,10):
-       print(f"num: {i}")
+load_dotenv()
 
-
-
-if __name__ == "__main__":
-    main()
+print(os.getenv("USUARIO"))
