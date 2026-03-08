@@ -3,4 +3,4 @@ import os
 
 load_dotenv()
 
-print(os.getenv("USUARIO"))
+print(os.getenv("USER_TEST"))
