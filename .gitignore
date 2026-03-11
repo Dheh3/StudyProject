@@ -10,4 +10,5 @@ wheels/
 .venv
 .env
 
+# Docker
 docker-compose.yml
